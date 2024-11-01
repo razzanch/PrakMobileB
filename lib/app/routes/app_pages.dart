@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 
 import '../modules/create_task_screen/bindings/create_task_screen_binding.dart';
 import '../modules/create_task_screen/views/create_task_screen_view.dart';
+import '../modules/githubtest/bindings/githubtest_binding.dart';
+import '../modules/githubtest/views/githubtest_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/homescreen/bindings/homescreen_binding.dart';
@@ -50,6 +52,11 @@ class AppPages {
       name: _Paths.LOGIN,
       page: () => LoginView(),
       binding: LoginBinding(),
+    ),
+    GetPage(
+      name: _Paths.GITHUBTEST,
+      page: () => const GithubtestView(),
+      binding: GithubtestBinding(),
     ),
   ];
 }

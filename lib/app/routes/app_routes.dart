@@ -9,6 +9,7 @@ abstract class Routes {
   static const HOMESCREEN = _Paths.HOMESCREEN;
   static const CREATE_TASK_SCREEN = _Paths.CREATE_TASK_SCREEN;
   static const LOGIN = _Paths.LOGIN;
+  static const GITHUBTEST = _Paths.GITHUBTEST;
 }
 
 abstract class _Paths {
@@ -19,4 +20,5 @@ abstract class _Paths {
   static const HOMESCREEN = '/homescreen';
   static const CREATE_TASK_SCREEN = '/create-task-screen';
   static const LOGIN = '/login';
+  static const GITHUBTEST = '/githubtest';
 }
