@@ -7,6 +7,8 @@ abstract class Routes {
   static const GET_CONNECT = _Paths.GET_CONNECT;
   static const ARTICLE_DETAIL = _Paths.ARTICLE_DETAIL;
   static const ARTICLE_DETAIL_WEBVIEW = _Paths.ARTICLE_DETAIL_WEBVIEW;
+  static const CONNECTION = _Paths.CONNECTION;
+ 
 }
 
 abstract class _Paths {
@@ -15,4 +17,6 @@ abstract class _Paths {
   static const GET_CONNECT = '/get-connect';
   static const ARTICLE_DETAIL = '/article-details';
   static const ARTICLE_DETAIL_WEBVIEW = '/article-details-webview';
+  static const CONNECTION = '/connection';
+
 }
